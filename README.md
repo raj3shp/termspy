@@ -24,7 +24,7 @@ Since we use `ptrace` syscall, termspy must have CAP_SYS_PTRACE capability. Depe
 
 ### Details:
 
-As a defender or an attacker with access to a compromised Linux system one can leverage [`ptrace`](https://man7.org/linux/man-pages/man2/ptrace.2.html) to spy on user's terminal activity and potentially get hold of secret information.
+As an attacker (or defender) with access to a compromised Linux system one can leverage [`ptrace`](https://man7.org/linux/man-pages/man2/ptrace.2.html) to spy on user's terminal activity and potentially get hold of secret information.
 
 The `ptrace` syscall provides a means by which one process may observe and control the execution of another process, and examine and change the tracee's memory and registers.
 
